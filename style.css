@@ -1,1 +1,38 @@
 @charset "UTF-8";
+
+* {
+  color: #6c6c6c;
+}
+
+a {
+  text-decoration: underline;
+}
+
+header {
+  height: 400px;
+  background-image: url(img/mv.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.header-title {
+  padding: 20px;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+main {
+  width: 840px;
+  margin: 50px auto;
+}
+
+.inner {
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.inner_text {
+  line-height: 1.7;
+  padding-top: 10px;
+}
